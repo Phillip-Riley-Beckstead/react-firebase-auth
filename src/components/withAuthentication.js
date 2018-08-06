@@ -25,7 +25,7 @@ const withAuthentication = (Component) => {
                 <AuthUserContext.Provider value={authUser}>
                     <Component />
                 </AuthUserContext.Provider>
-         
+
             );
         }
     }
